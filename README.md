@@ -17,7 +17,7 @@
 
 # What is an address?
 
-1.For a given private key, pr, the Ethereum address A(pr) (a 160-bit value) is a byte array of size 20.
+1. For a given private key, pr, the Ethereum address A(pr) (a 160-bit value) is a byte array of size 20.
 2. It corresponds to a given private and public key pair 
 3. It is  defined as the right most 160-bits(a byte array of size 20) of the Keccak hash of the corresponding ECDSA public key.
 
